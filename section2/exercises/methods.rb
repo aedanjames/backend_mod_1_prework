@@ -8,25 +8,36 @@ def print_name
   p "Severus Snape"
 end
 
-print_name
-
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts "#{name}"
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-# YOUR CODE HERE
+def add(a, b)
+  puts a + b
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+add(1,2)
+add(12,5)
+add(3465,234)
 
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+def lead_singers(first, second)
+  puts "Let's look up bands that have TWO lead singers"
+  puts "I see their names here in a Google search!"
+  puts first + second
+end
 
+lead_singers("Tillian, and ", "John Mess")
+lead_singers("Cthulu and " ,"Godzilla")
+lead_singers("Mothra and " ,"Optimus Prime")
 #-------------------
 # PART 3: Naming is Hard
 #-------------------
@@ -38,4 +49,5 @@ print_name("Albus Dumbledore")
 # What did you name each parameter, and why?
 
 # EXPLAIN:
-
+# I named the function lead_singers because it is descriptive of what category the arguments will be: lead singers.
+# I named the parameter first and second to indicate the first and second lead singer.
