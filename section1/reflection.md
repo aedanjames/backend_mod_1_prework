@@ -13,13 +13,13 @@
 - An integer is a whole number, whereas a float is an integer that has a decimal point, even if that decimal point is a zero.
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
-`animal = "zebra"`
+- `animal = "zebra"`
 
 1. How would you print the string `"zebra"` using the variable that you created above?
 - `p animal`
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
-- Interpolation is calling a previously assigned string from within another string.
+- Interpolation is calling a previously assigned string from within another string. \
 `p "The #{animal} is an undeniably cool animal."`
 
 1. What method is used to get input from a user?
@@ -27,7 +27,7 @@
 
 1. Name and describe two common string methods:
 - String interpolation, which embeds the assigned value of an variable `#{}` inside of another string,
-and concatenation, which is essentially "glueing" strings together. An example below.
+and concatenation, which is essentially "glueing" strings together. An example below \
 ```
 puts "I sure love + #{animal}"    # => string interpolation
 a = "This is an"

@@ -63,8 +63,8 @@ p number_of_pets
 
 # YOU DO:
 # Using the variables below, print the total number of snacks to the terminal:
-healthy_snacks = 6;
-junk_food_snacks = 8;
+healthy_snacks = 6
+junk_food_snacks = 8
 p healthy_snacks, junk_food_snacks
 
 
