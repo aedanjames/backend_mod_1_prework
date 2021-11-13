@@ -9,13 +9,13 @@ class MyCar
   attr_accessor :color
   # Allows us to view but not modify the year of the car
   attr_reader :year
-
+  # We initialize the class MyCar with three arguments, or parameters
   def initialize(year, model, color)
-    # defining instance variables
+    # Define instance variables
     @year = year
     @model = model
     @color = color
-    #instance variable
+    # Instance variable
     @current_speed = 0
 end
 
