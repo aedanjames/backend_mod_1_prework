@@ -26,7 +26,7 @@ if trucks > cars
 elsif trucks < cars
 # If trucks < cars = true the line prints
   puts "Maybe we could take the trucks."
-# If both previous arguments are evaluted false, the line prints
+# If both previous arguments evaluate false, the line prints
 else "We still can't decide."
 # End of code block
 end

@@ -1,7 +1,12 @@
+# The code under the if statement is indented two spaces for the sake of readability.
+# If not indented, the code will still run, but as we add more lines of code it is less readable.
+# Boolean expressions can be used in if-statements
+# If you change the values for people, cats and dogs then the printed line adjusts accordingly.
+
 people = 20
 cats = 8
 dogs = 15
-tired = true
+is_tired = true
 
 # The if statement is a conditional statement that executes one line of code if the condition is true
 # and if not true then it runs the alternate line of code.
@@ -37,15 +42,10 @@ if people == dogs
   puts "People are dogs."
 end
 
-if tired = true
+if is_tired = true
   puts "A nap is in order!"
 end
 
-if tired = false
+if is_tired = false
   puts "I don't need to sleep, I'm a machine!"
 end
-
-# The code under the if statement is indented two spaces for the sake of readability.
-# If not indented, the code will still run, but as we add more lines of code it is less readable.
-# Boolean expressions can be used in if-statements
-# If you change the values for people, cats and dogs then the printed line adjusts accordingly.
