@@ -104,22 +104,22 @@ puts posts[0]
 
 email = [
   {
-    "folder" => "inbox",
-    "total" => 1823,
-    "unread" => 263,
-    "most_recent" => "Reddit"
+    folder: "inbox",
+    total: 1823,
+    unread: 263,
+    most_recent: "Reddit"
   },
   {
-    "folder" => "flagged",
-    "total" => 123,
-    "unread" => 0,
-    "most_recent" => "Xcel Energy"
+    folder: "flagged",
+    total: 123,
+    unread: 0,
+    most_recent: "Xcel Energy"
   },
   {
-    "folder" => "drafts",
-    "total" => "100",
-    "unread" => nil ,
-    "most_recent" => "Aedan Y"
+    folder: "drafts",
+    total: "100",
+    unread: nil ,
+    most_recent: "Aedan Y"
   }
 ]
 puts email

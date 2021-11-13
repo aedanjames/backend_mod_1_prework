@@ -5,8 +5,6 @@
 # any remaining prompt.
 
 
-
-
 #-------------------
 # PART 1: Animals: Array Syntax
 #-------------------
@@ -81,12 +79,12 @@ print animals
 # The post itself likely has more complex data, but here is one way we can think about it:
 
 
-posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
+posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"]
 
 # YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
 # may be storing data? Come up with 3 examples - they could be from different web applications or
 # all from the same one.
 
-# 1: playlists = ["Liked songs", "Boomtiss", "mic stand", "groovin'"]
-# 2: artists = ["Gold Fever", "Ten Thousand Fists", "Lemonade", "Passion Pain and Demon Slayin'"]
-# 3: songs = ["All Night", "Hourglass", "Over", "Telepath"]
+playlists = ["Liked songs", "Boomtiss", "mic stand", "groovin'"]
+artists = ["Gold Fever", "Ten Thousand Fists", "Lemonade", "Passion Pain and Demon Slayin'"]
+songs = ["All Night", "Hourglass", "Over", "Telepath"]
